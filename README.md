@@ -123,7 +123,7 @@ Outputs: Node group name, ASG name
 ## ⚠️ Notes
 
 - IAM roles and policies should be pre-created or managed externally.
-- This module does not install the Kubernetes add-ons (like CoreDNS, KubeProxy, etc.).
+- This module does install the Kubernetes add-ons (like CoreDNS, VPC-CNI, etc.).
 - You can use kubectl by setting up your kubeconfig:
 
 ```bash
