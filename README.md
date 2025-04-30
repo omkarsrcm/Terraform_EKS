@@ -108,7 +108,7 @@ Enable versioning on the bucket (e.g. `hfnlife-dev`). Add this bucket policy to 
       "Sid": "ListTerraformStateFolder",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::497439481164:role/terraform-executor-role"
+        "AWS": "arn:aws:iam::AccountID:role/terraform-executor-role"
       },
       "Action": "s3:ListBucket",
       "Resource": "arn:aws:s3:::hfnlife-dev",
@@ -122,7 +122,7 @@ Enable versioning on the bucket (e.g. `hfnlife-dev`). Add this bucket policy to 
       "Sid": "AccessTerraformStateObjects",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::497439481164:role/terraform-executor-role"
+        "AWS": "arn:aws:iam::AccountID:role/terraform-executor-role"
       },
       "Action": [
         "s3:GetObject",
