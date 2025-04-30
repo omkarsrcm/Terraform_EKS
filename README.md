@@ -401,6 +401,6 @@ aws eks update-kubeconfig --name <cluster_name> --region <region>
 
 ## 👨‍💻 Author
 
-Maintained by the Omvexis DevOps Team.
+Maintained by the Omvexis(Omkar Kulkarni).
 
 ---
