@@ -1,0 +1,12 @@
+name: Workflow part2
+on:
+  push
+jobs:
+  Checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo Check
+        uses: actions/checkout@v4
+      - name: List files
+        run: ls
+      - run: pwd
