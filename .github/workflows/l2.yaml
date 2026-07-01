@@ -8,5 +8,5 @@ jobs:
       - name: Repo Check
         uses: actions/checkout@v4
       - name: List files
-        run: ls
+        run: ls -l
       - run: pwd
